@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589485525434.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2696425030",
+    "id" : "8E18EFC2",
+    "lastKnownWriteTime" : 1589483631,
+    "last_content_update" : 1589483631,
+    "path" : "~/Git/PROJECTS/PHD_potfolio_academic_theme/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
