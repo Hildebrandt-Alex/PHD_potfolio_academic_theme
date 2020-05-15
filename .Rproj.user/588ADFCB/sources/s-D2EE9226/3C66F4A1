@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589500526114.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1445634465",
+    "id" : "3C66F4A1",
+    "lastKnownWriteTime" : 1589501341,
+    "last_content_update" : 1589501341338,
+    "path" : "~/Git/PROJECTS/PHD_potfolio_academic_theme/config/_default/params.toml",
+    "project_path" : "config/_default/params.toml",
+    "properties" : {
+        "cursorPosition" : "11,14",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

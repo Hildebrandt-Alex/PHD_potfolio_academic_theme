@@ -1,0 +1,36 @@
+---
+title: Academic theme layout & functionality
+author: Alex.Hildebrandt
+date: '2020-05-14'
+slug: academic-layout-functionality
+categories:
+  - Hugo Theme
+tags:
+  - layout
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-05-14T22:02:56+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+
+[**Getting started**](https://sourcethemes.com/academic/docs/get-started/): Docs of Academic Theme
+
+***
+**Alert Box** 
+
+{{% alert note %}}
+some important content 
+{{% /alert %}}
+
+
+    
+***
