@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589525758387.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1987699074",
+    "id" : "FDF7780B",
+    "lastKnownWriteTime" : 1589525782,
+    "last_content_update" : 1589525782390,
+    "path" : "~/Git/PROJECTS/PHD_potfolio_academic_theme/content/post/2020-05-14-deploy-blogdown-site-with-github-netify.Rmd",
+    "project_path" : "content/post/2020-05-14-deploy-blogdown-site-with-github-netify.Rmd",
+    "properties" : {
+        "cursorPosition" : "1,47",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
