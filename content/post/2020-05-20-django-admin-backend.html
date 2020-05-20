@@ -1,0 +1,37 @@
+---
+title: Django admin backend
+author: Alex.Hildebrandt
+date: '2020-05-20'
+slug: django-admin-backend
+categories:
+  - django configuration
+  - admin
+tags:
+  - django
+  - admin
+  - createsuperuser
+  - make db migration
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-05-20T17:14:45+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<div id="create-an-admin-user-for-the-backend" class="section level2">
+<h2>Create an admin user for the backend</h2>
+<p>When starting a django project an admin backend is created automatically. To hace access to this backend first a superuser has to be created. Before this can be done you have to migrate databases with the following command (virtual environement activated):</p>
+<pre><code>pyhton3 manag3.py makemigrations
+pyhton3 manag3.py migrate</code></pre>
+<p>This ensures that all tables are available in the backend. Next you need to create a superuser with:</p>
+<pre><code>python3 manage.py createsuperuser</code></pre>
+<p>After typing name and password of the backend admin you can launch it.</p>
+<hr />
+</div>

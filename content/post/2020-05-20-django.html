@@ -1,0 +1,231 @@
+---
+title: Django templates
+author: Alex.Hildebrandt
+date: '2020-05-20'
+slug: django
+categories:
+  - templates
+  - django blog
+  - blog
+tags:
+  - forloop
+  - html
+  - django
+  - blog
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-05-20T14:54:10+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<div id="html-templates-in-django-how-to-inherit-layout" class="section level2">
+<h2>.html templates in Django &amp; how to inherit layout</h2>
+<p>In Django it is a good practice to inherit layout. Therefor you first need to make a template directory in your app. There you can save a base.html. This site has the base layout of all sites which are extended wwith it. This is how a base.html file can look like:</p>
+<pre><code>  {% load static %}
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
+    &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+      &lt;!-- Required meta tags --&gt;
+          &lt;meta charset=&quot;utf-8&quot;&gt;
+          &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+  
+          &lt;!-- Bootstrap CSS --&gt;
+          &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css&quot; integrity=&quot;sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm&quot; crossorigin=&quot;anonymous&quot;&gt;
+  
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{% static &#39;blog/main.css&#39; %}&quot;&gt;
+  
+      {% if title %}
+        &lt;title&gt; Django Blog - {{ title }} &lt;/title&gt;
+      {% else %}
+        &lt;title&gt; Django Blog &lt;/title&gt;
+      {% endif %}
+    &lt;/head&gt;
+    &lt;body&gt;
+            &lt;header class=&quot;site-header&quot;&gt;
+          &lt;nav class=&quot;navbar navbar-expand-md navbar-dark bg-steel fixed-top&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;!-- clicking on django blog in the nav bar will go to blog-home of urls.py - blog --&gt;
+              &lt;a class=&quot;navbar-brand mr-4&quot; href=&quot;{% url &#39;blog-home&#39; %}&quot;&gt;Django Blog&lt;/a&gt;
+              &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarToggle&quot; aria-controls=&quot;navbarToggle&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+              &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarToggle&quot;&gt;
+                &lt;div class=&quot;navbar-nav mr-auto&quot;&gt;
+                  &lt;!-- clicking on django blog in the nav bar will go to blog-home of urls.py - blog --&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;{% url &#39;blog-home&#39; %}&quot;&gt;Home&lt;/a&gt;
+                &lt;!-- clicking on django blog in the nav bar will go to blog-about of urls.py - blog --&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;{% url &#39;blog-about&#39; %}&quot;&gt;About&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;!-- Navbar Right Side --&gt;
+                &lt;div class=&quot;navbar-nav&quot;&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;#&quot;&gt;Login&lt;/a&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;#&quot;&gt;Register&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/nav&gt;
+        &lt;/header&gt;
+        &lt;main role=&quot;main&quot; class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-8&quot;&gt;
+          {% block content %}{% endblock %}
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;content-section&quot;&gt;
+            &lt;h3&gt;Our Sidebar&lt;/h3&gt;
+            &lt;p class=&#39;text-muted&#39;&gt;You can put any information here you&#39;d like.
+              &lt;ul class=&quot;list-group&quot;&gt;
+                &lt;li class=&quot;list-group-item list-group-item-light&quot;&gt;Latest Posts&lt;/li&gt;
+                &lt;li class=&quot;list-group-item list-group-item-light&quot;&gt;Announcements&lt;/li&gt;
+                &lt;li class=&quot;list-group-item list-group-item-light&quot;&gt;Calendars&lt;/li&gt;
+                &lt;li class=&quot;list-group-item list-group-item-light&quot;&gt;etc&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/main&gt;
+  
+  
+        &lt;!-- Optional JavaScript --&gt;
+      &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+      &lt;script src=&quot;https://code.jquery.com/jquery-3.2.1.slim.min.js&quot; integrity=&quot;sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+      &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js&quot; integrity=&quot;sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+      &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js&quot; integrity=&quot;sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  
+    &lt;/body&gt;
+  &lt;/html&gt;</code></pre>
+<p>The file refers to online available bootstrap and CSS stylesheets as well as to <em>JacaScript</em> files.</p>
+<pre><code>&lt;!-- Bootstrap CSS --&gt;
+              &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css&quot; integrity=&quot;sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm&quot; crossorigin=&quot;anonymous&quot;&gt;
+      
+              &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{% static &#39;blog/main.css&#39; %}&quot;&gt;
+              
+              &lt;!-- Optional JavaScript --&gt;
+      &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+      &lt;script src=&quot;https://code.jquery.com/jquery-3.2.1.slim.min.js&quot; integrity=&quot;sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+      &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js&quot; integrity=&quot;sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+      &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js&quot; integrity=&quot;sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+      </code></pre>
+<p>It has a navigation bar in the header of the page:</p>
+<pre><code>&lt;header class=&quot;site-header&quot;&gt;
+          &lt;nav class=&quot;navbar navbar-expand-md navbar-dark bg-steel fixed-top&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+              &lt;!-- clicking on django blog in the nav bar will go to blog-home of urls.py - blog --&gt;
+              &lt;a class=&quot;navbar-brand mr-4&quot; href=&quot;{% url &#39;blog-home&#39; %}&quot;&gt;Django Blog&lt;/a&gt;
+              &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarToggle&quot; aria-controls=&quot;navbarToggle&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+              &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+              &lt;/button&gt;
+              &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarToggle&quot;&gt;
+                &lt;div class=&quot;navbar-nav mr-auto&quot;&gt;
+                  &lt;!-- clicking on django blog in the nav bar will go to blog-home of urls.py - blog --&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;{% url &#39;blog-home&#39; %}&quot;&gt;Home&lt;/a&gt;
+                &lt;!-- clicking on django blog in the nav bar will go to blog-about of urls.py - blog --&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;{% url &#39;blog-about&#39; %}&quot;&gt;About&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;!-- Navbar Right Side --&gt;
+                &lt;div class=&quot;navbar-nav&quot;&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;#&quot;&gt;Login&lt;/a&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;#&quot;&gt;Register&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/nav&gt;
+        &lt;/header&gt;</code></pre>
+<p>And the main page consists of a sidebar and the individual content of each site:</p>
+<pre><code>&lt;main role=&quot;main&quot; class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-8&quot;&gt;
+          {% block content %}{% endblock %}
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+          &lt;div class=&quot;content-section&quot;&gt;
+            &lt;h3&gt;Our Sidebar&lt;/h3&gt;
+            &lt;p class=&#39;text-muted&#39;&gt;You can put any information here you&#39;d like.
+              &lt;ul class=&quot;list-group&quot;&gt;
+                &lt;li class=&quot;list-group-item list-group-item-light&quot;&gt;Latest Posts&lt;/li&gt;
+                &lt;li class=&quot;list-group-item list-group-item-light&quot;&gt;Announcements&lt;/li&gt;
+                &lt;li class=&quot;list-group-item list-group-item-light&quot;&gt;Calendars&lt;/li&gt;
+                &lt;li class=&quot;list-group-item list-group-item-light&quot;&gt;etc&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/main&gt;</code></pre>
+<p>Thereby the content of each site is refered with:</p>
+<pre><code>&lt;div class=&quot;col-md-8&quot;&gt;
+          {% block content %}{% endblock %}
+        &lt;/div&gt;</code></pre>
+<p>The individual sites are also stored in the templates directory of your app and are extended with the base.html file. Sytax look like this:</p>
+<pre><code>{% extends &quot;blog/base.html&quot; %}
+{% block content %}
+    &lt;h1&gt;About page!&lt;/h1&gt;
+{% endblock content %}</code></pre>
+<p>The navabar header is referencing his links with:</p>
+<pre><code>&lt;div class=&quot;navbar-nav mr-auto&quot;&gt;
+                  &lt;!-- clicking on django blog in the nav bar will go to blog-home of urls.py - blog --&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;{% url &#39;blog-home&#39; %}&quot;&gt;Home&lt;/a&gt;
+                &lt;!-- clicking on django blog in the nav bar will go to blog-about of urls.py - blog --&gt;
+                  &lt;a class=&quot;nav-item nav-link&quot; href=&quot;{% url &#39;blog-about&#39; %}&quot;&gt;About&lt;/a&gt;
+                &lt;/div&gt;</code></pre>
+<p>Thereby href=“{% url ‘blog-home’ %} refers to the urls.py file of the app. Syntax of the urls.py file looks like this:</p>
+<pre><code>from django.urls import path
+from . import views
+
+urlpatterns = [
+    path(&#39;&#39;, views.home, name=&#39;blog-home&#39;),
+    path(&#39;about/&#39;, views.about, name=&#39;blog-about&#39;),
+]</code></pre>
+<p>This file itself refers to the views.py file in the app directory. This file contains this code:</p>
+<pre><code> from django.shortcuts import render
+
+posts = [
+    {
+        &#39;author&#39;:&#39;Alex&#39;,
+        &#39;title&#39; : &#39;Blog Post 1&#39;,
+        &#39;content&#39;: &#39;First post content&#39;,
+        &#39;date_posted&#39;: &#39;May 20, 2020&#39;
+    },
+    {
+        &#39;author&#39;:&#39;Bettina&#39;,
+        &#39;title&#39; : &#39;Blog Post 2&#39;,
+        &#39;content&#39;: &#39;second post content&#39;,
+        &#39;date_posted&#39;: &#39;May 21, 2020&#39;
+    }
+]
+
+def home(request):
+    context = {
+        &#39;posts&#39;: posts
+    }
+    return render(request, &#39;blog/home.html&#39;, context)
+
+def about(request):
+    return render(request, &#39;blog/about.html&#39;, {&#39;title&#39;: &#39;About&#39;})
+    </code></pre>
+<p>Each app has its own urls.py file. And the django project refers to this urls in the settings.py file in the project directory with this code:</p>
+<pre><code>....
+from django.urls import path, include
+from django.contrib import admin
+
+urlpatterns = [
+    path(&#39;admin/&#39;, admin.site.urls),
+    path(&#39;&#39;, include(&#39;blog.urls&#39;)),
+]
+....</code></pre>
+<hr />
+<div id="references-youtube-django-series" class="section level3">
+<h3>References: <a href="https://youtu.be/qDwdMDQ8oX4">Youtube django series</a></h3>
+<hr />
+</div>
+</div>
