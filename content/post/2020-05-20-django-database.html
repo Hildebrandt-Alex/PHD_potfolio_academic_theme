@@ -1,0 +1,66 @@
+---
+title: Django Database
+author: Alex.Hildebrandt
+date: '2020-05-20'
+slug: django-database
+categories:
+  - database
+  - django
+tags:
+  - database
+  - postgres
+  - sqlite
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-05-20T18:16:13+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<div id="handling-databases-in-django" class="section level2">
+<h2>Handling databases in Django</h2>
+<p>When starting a project sqlite is preinstalled. This database is in development sufficient. When going to production it is recommended to use postgresDB.</p>
+<p>In django you can create new databases within the models.py of your app. Each app will have its own databases. The code for a models entry could look like this:</p>
+<pre><code>from django.db import models
+from django.utils impor timezone
+from django.contrib.auth.models import User
+
+class Post(models.Model):
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+    date_posted = models.DateTimeField(default=timezone.now)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)</code></pre>
+<p>Here a database wiht the name <strong><em>Post</em></strong> is created. This table has different columns which are defined by the Fields parameter. You need to run <em>python3 manage.py makemigrations</em> to get migration of the model. In the migrations directory now a file is created which holds all the informations. To see what sql is doing behind the scene you can type:</p>
+<pre><code>python3 manage.py sqlmigrate blog 0001</code></pre>
+<p><strong>blog</strong> is the app name and <strong>0001</strong> is the created filename in the migrations folder. The output is what you have to write in sql.</p>
+<p>Now you need to make the database available with:</p>
+<pre><code>python3 manage.py migrate</code></pre>
+<p>If you want to use this database on a site you need to import it in the views.py file:</p>
+<pre><code>from django.shortcuts import render
+from .models import Post
+
+
+def home(request):
+    context = {
+        &#39;posts&#39;: Post.objects.all()
+    }
+    return render(request, &#39;blog/home.html&#39;, context)
+
+def about(request):
+    return render(request, &#39;blog/about.html&#39;, {&#39;title&#39;: &#39;About&#39;})
+    </code></pre>
+<p>If you want to make your models / databases available in the backend, you need to register the models in the admin.py file of your app:</p>
+<pre><code>from django.contrib import admin
+from .models import Post
+
+admin.site.register(Post)</code></pre>
+<p>In the backend you can easy handle the models/databases. Create new entries and change metadata information.</p>
+<hr />
+</div>
