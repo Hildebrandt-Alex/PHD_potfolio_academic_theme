@@ -1,0 +1,86 @@
+---
+title: 'Exosomes: biogenesis, function and clinical potential'
+author: Alex.Hildebrandt
+date: '2020-05-28'
+slug: exosomes-biogenesis-function-and-clinical-potential
+categories:
+  - exosomes
+  - paper
+tags:
+  - paper
+  - exosomes
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-05-28T08:54:45+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+## Exosomes: biogenesis, function and clinical potential
+
+####About Exosomes:
+
+Exosomes are small (30-100 nm) biovesicles which are released by all kind of cells into body fluids like blood and urine. In the beginning they thought to be waste resulting from cell damage or by-products of cell homeostasis but recent studies show that they have an important role in intercellular communication through their cargo which may play a role in processes such as signal transduction, antigen presentation and immune response. The cargo of exosomes consists of lipids, proteins and nucleic acids and is enclosed or exposed on the surface. Thereby a large variety have been identified from different cell types with about 4400 proteins, 194 lipids, 1639 mRNAs and 764 miRNAs beside other RNA-species. But the content is strongly dependend on the source of origin. In human plasma derived exosomal RNA species microRNAs (miRNAs)are found to be most abundant. Making up of 42.32% of all raw reads and 76.20% of all mappable reads. Other RNA species including ribosomal RNA (9% of all mappable counts), long non-coding RNAs (3.36%), small nuclear RNA (0.18%) and small nucleor RNA (0.01%). The miRNA profile can provide information about whether changed processes are taking place and provide information about the development of diseases. miR-214, miR-29a, miR-126 and miR-320, which participate in angiogenesis, hematopoiesis, exocytosis and tumorgenesis for example are already mentioned in exosome-based intercellular communication. 
+Since exosomes can be found in all body fluids, they are easily accessible in everyday clinical practice (for example blood derived plasma Exosomes) and could serve as markers for the physiological state through validated studies. 
+
+***
+####Extracellular vesicles and the biogenesis of exosomes:
+
+Extracellular vesicles (EVs) interact with and modify the behavior of target cells. Thereby EVs can be devided into three major groups: plasma membrane-budded microvesicles (MVs), apoptotic bodies and exosomes. Figure 1 illustrates the biogenesis of exosomes and MVs:
+
+
+![Fig. 1. Schematic representation of exosome and microvesicle biogenesis pathways. While microvesicles bud directly from the plasma membrane, exosomes are generated within MVB subpopulations that upon maturation fuse with the plasma membrane. Alternative MVB pathways include fusion with lysosomes or with autophagosomes, although little is known about the mechanisms determining MVB fate. MVB fusion with the plasma membrane is a tightly regulated multistep process that includes MVB trafficking along microtubules, docking at the plasma membrane and SNARE-mediated fusion. (https://doi.org/10.1016/j.pharmthera.2018.02.013)  [license](https://creativecommons.org/licenses/by/4.0/)](/post/2020-05-28-exosomes-biogenesis-function-and-clinical-potential_files/biogenesis_ev.jpg)
+
+
+
+Thereby the ESCRT complex composed of four seperate proteins (ESCRTs 0 to III) facilitates MVB (multivesicular body) formation, vesicle budding and protein cargo sorting. Exosomes are part of the MVBs. MVBs can either fuse with the plasma membrane to secrete exosomes or degrade their cargo by fusing with lysosomes. A shifted balance towards exosomal cargo release was observed from transformed cells.
+
+
+MVBs that are intended for exocytosis are transported along microtubules by the molecular motor kinesin. The release of MVBs might be cell type-specific and can not be described generally. The processes involved have different actors and can differ in their mechanisms. E.g. it has been shown that RAB35 mediates MVB docking in oligodendroglial cells, wheras RAB27 controls this process in several cancer cell lines (in vivo and in vitro).
+After docking the fusion of the MVBs with the plasma membrane is initiated by the SNARE (soluble N-ethylmaleimide-sensitive component attachment protein receptor) membrane fusion machinery. There, also different acotrs in different cell types were observed. 
+
+Finally exosomes are released into the extracellular space. Here they interact with the extracellular matrix and cells in the microenvironment. They can also enter the circulation via lymph of blood. It has to be mentioned that some studies report that in certain cell-types a proportion of exosomes remains attached to the cell surface. Here they might function as signaling platforms for juxtacrine communication.
+
+
+***
+####Function of exosomes:
+
+Exosomes are small mini versions of their original cell. In a way they reflect the _status quo_ of the cell. And they serve to transmit bioactive molecules. Depending on the type molecule, they can trigger very different processes.
+
+
+The bioactive molecules contained in exosomes have been shown to impact target cells via the following mechanisms: **(1)** direct stimulation of target cells via surface-bound ligands; **(2)** transfer of activated receptors to recipient cells; and **(3)** epigenetic reprogramming of recipient cells via delivery of functional proteins, lipids, and RNAs (Fig. 2).
+
+
+![Fig. 2 The schematic diagram of pathways involved in exosome mediated cell-to-cell communication. (1) Exosomes signal recipient cells via direct surface-bound ligands. (2) Exosomes transfer activated receptors to recipient cells. (3) Exosomes may epigenetically reprogram recipient cells via delivery of functional proteins, lipids, and RNAs (Zhang, Yuan, Liu, Yunfeng, Liu, Haiying, Tang, Wai Ho: 2019: Exosomes: Biogenesis, biologic function and clinical potential) [license](https://creativecommons.org/licenses/by/4.0/)](/post/2020-05-28-exosomes-biogenesis-function-and-clinical-potential_files/function_ex.png)
+
+#### Proteins
+Exosomes are enriched in proteins, such as tetraspanins (CD9, CD63, CD81, CD82). They are present in processes like cell penetration, invasion and fusion tasks; heat shok proteins HSP70, HSP90): MVB formation proteins that are involved in exosome release (Alix, TSG101): Proteins responsible for membrane transport and fusion(annexins and Rab): proteins enriched in exosomes are used as marker proteins (e.g. TSG101, HSP70, CD81, CD63). Table 1 is a summary of protein components found in exosomes.
+
+![Table 1: Common protein components of exosomes. [license](https://creativecommons.org/licenses/by/4.0/)](/post/2020-05-28-exosomes-biogenesis-function-and-clinical-potential_files/table_protein.png)
+
+#### RNAs
+Beside proteins all kinds of RNA species are found in exosomes. miRNAs can transfered through exosomes can change the phenotype of the recipient cells transient or persistent. lncRNAs and circRNAs can be found as well and are reported to have impact of a variety of biological processes. lncRNA TUC339 was highly significant expressed and linked to modulating tumor cell growth and adhesion. Other lncRNAs were linked to different diseases: lncRNA CRNDE-h in colorectal cancer , lncARSR in sunitinib resistance of renal cancer, lncRNA Hotair in rheumatoid arthritis, lincRNA-p21 and ncRNA-CCND1 in bleomycin-induced DNA damage.
+
+#### Lipids
+Generally, exosomes are enriched in phos- phatidylserine (PS), phosphatidic acid, cholesterol, sphingomyelin (SM), arachidonic acid and other fatty acids, prostaglandins, and leukotrienes, which account for their stability and structural rigidity. Table 2 is showing some bioactive lipids in exosomes:
+
+![Table 2: Bioactive lipids in exosomes. [license](https://creativecommons.org/licenses/by/4.0/)](/post/2020-05-28-exosomes-biogenesis-function-and-clinical-potential_files/table_lipid.png)
+
+***
+####Clinical potential:
+
+Since exosomes can be found in many different biofluids (urine, saliva, breast milk, cerebrospinal fluid, semen, amniotic fluid, ascites) that can be obtained with non-invasive metnods, the diagnostic potential of exosomes is very high. The profile and level of individual bioactive molecules could be used as a basis for decision-making. However, this information is not yet used in everyday clinical practice.
+
+
+The clinical potential of exosomes opens up not only because of the diagnostic but also because of the therapeutic possibilities. Generally, a variety of therapeutic material, such as short interfering-RNA (siRNA), antagomirs, recombinant proteins, and anti-inflammatory drugs, can be encapsu- lated for exosome-mediated delivery via several delivery approaches, including: **(1)** Isolation of exosomes from donor cells ex vivo, and incorporated therapeutic agents into exosomes; **(2)** Encapsulation of donor cells with the therapeutic agent, which can be sorted into exosomes while exosomal formation; **(3)** Transfection of donor cells with the drug-encoding DNA, which can be expressed and sorted into exosomes.
+
+***
+####References:
+Zhang, Yuan, Liu, Yunfeng, Liu, Haiying, Tang, Wai Ho: 2019: Exosomes: Biogenesis, biologic function and clinical potential
+
+***

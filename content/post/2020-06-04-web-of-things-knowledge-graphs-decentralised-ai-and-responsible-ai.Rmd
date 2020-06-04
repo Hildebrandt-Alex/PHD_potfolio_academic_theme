@@ -1,0 +1,45 @@
+---
+title: Web of things, knowledge graphs, decentralised AI and responsible AI
+author: Alex.Hildebrandt
+date: '2020-06-04'
+slug: web-of-things-knowledge-graphs-decentralised-ai-and-responsible-ai
+categories:
+  - artificial intelligence
+tags:
+  - web of things
+  - decentralised ai
+  - responsible ai
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-04T17:51:17+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+This post will inform about topics on artificial intelligence relevant for the **_INDUSTRY 4.0_**. Four topics are discussed: 
+
+* Web of things
+* Knowledge graphs
+* Decentralized artificial intelligence
+* Responsible artificial intelligence
+
+***
+
+### Web of things
+
+***
+
+### Knowledge graphs
+
+***
+
+### Decentralized artificial intelligence
+
+***
+
+### Resposnsible artificial intelligence
