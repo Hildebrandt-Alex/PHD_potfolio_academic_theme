@@ -30,11 +30,42 @@ This post will inform about topics on artificial intelligence relevant for the *
 
 ***
 
-### Web of things
+### IoT & WoT 
+
+IoT is the abbreviation for **_Internet of Things_** (IoT). In general, the term _IoT_ is used to connect everyday objects of machines in a private or an industrial environment via the internet. Devices get unique IDs in the network. They have electric intelligence and can communicate through the internet and finish tasks full automatically. They are called **_Smart Devices_**.
+
+
+In addition to the possibility of the devices communicating with each other (machine-to-machine communication, M2M), many of the networked objects provide an interface via the Internet, via which the devices can be operated and controlled by a user from any location.
+
+
+The IoT distinguishes between __private and industrial use__. In private, everyday objects are linked together (smart home or smart metering such as controlling audio boxes, thermostats, security systems, etc.). In the industrial environment, the term IoT is also used to refer to Industry 4.0. This means, among other things, the self-organization of industrial processes through the direct communication of machines, systems, goods and people. Not only individual processes, but entire value chains can be automated and made more efficient. Industrial application examples would be e.g. the monitoring of transport routes (just-in-time delivery) or the monitoring of medical processes.
+
+
+__WoT__ is a sub-area of the IoT. The prerequisite for both is that the smart devices have embedded computers and can communicate with the Internet / Web. Communication with the web can be wired or wireless. Wireless communication technologies would be e.g. WLAN, Bluetooth or cellular standards like UMTS and LTE. The WoT technology is based on software standards and frameworks such as representational state transfer (__REST__) and __HTTP__. Applications in which smart devices interact with one another can be implemented via the Internet address. In the industrial environment, RFID technology (radio-frequency-identification) plays an important role in identifying goods and tracking them in logistical processes.
+
+
+Networking on the Internet also creates opportunities for attack by dialing in or disrupting processes and unauthorized use of data or data-tapping. Therefore, the participating components must be protected against attacks such as denial-of-service attacks or malware. The following security aspects have to be considered with the IoT.
+
+* Wirksames und zuverlässiges Identitäts- und Zugriffsmanagement,
+* Verschlüsselung sämtlicher über das öffentliche Internet übertragener Daten,
+* Schutz der einzelnen Systeme durch Firewalls oder Firewall-ähnliche Funktionen,
+* effektive Härtung der Systeme zu Minimierung der Angriffsmöglichkeiten sowie
+* Software- und Patchmanagement über den kompletten Betriebszeitraum der Systeme zur   Behebung von erkannten Fehlern und Sicherheitsmängeln.
+
+
 
 ***
 
 ### Knowledge graphs
+
+Knowledge graphs can be created by accumulating every day digital information into one structure.
+
+![Fig. 2: Knowledge graph of google](/post/webofthings_/knowledgegraph.jpg)
+
+
+Internet giants and companies from other industries such as BBC,AstraZeneca and Capital One are using knowledge graphs to harness the knowledge of all data available.
+
+#### What is a 
 
 ***
 

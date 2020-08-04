@@ -1,12 +1,12 @@
-[0m[0KMicrosoft Windows [Version 10.0.18363.836][0K[?25l
+[0m[0KMicrosoft Windows [Version 10.0.18363.959][0K[?25l
 (c) 2019 Microsoft Corporation. Alle Rechte vorbehalten.[0K
 [0K
-C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25hg[0Ki[0Kt[0K[77G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
-[0K[?25h]0;  - git  statusOn branch master[0K[?25l
+C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25hg[0Ki[0Kt[0K[77G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K]0;  - git  status[?25l
+[0K[?25h]0; On branch master[0K[?25l
 Your branch is up to date with 'origin/master'.[0K
 [0K
 Changes not staged for commit:[0K
-  (use "git add/rm <file>..." to update what will be committed)[0K
+  (use "git add <file>..." to update what will be committed)[0K
   (use "git restore <file>..." to discard changes in working directory)[0K
         [0;31mmodified:   .RData[0m[0K
         [0;31mmodified:   .Rhistory[0m[0K
@@ -17,95 +17,120 @@ Changes not staged for commit:[0K
         [0;31mmodified:   .Rproj.user/588ADFCB/pcs/windowlayoutstate.pper[0m[0K
         [0;31mmodified:   .Rproj.user/588ADFCB/pcs/workbench-pane.pper[0m[0K
         [0;31mmodified:   .Rproj.user/588ADFCB/rmd-outputs[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/per/t/73BC1629[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/per/t/73BC1629-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/per/t/E340A555[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/per/t/E340A555-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/per/t/E69987CF[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/per/t/E69987CF-contents[0m[0K
         [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/166CA13F[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/98386D7E[0m[0K[9G[?25h[?25l
-        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/B2FFC512[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/C3C1569A[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/E1AE4CE3[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/INDEX[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/124F45C8-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/1CFB1663-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/29E798B-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/31DEE2FC-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/390A8AC6-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/39FF3F3-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/3B7D1BF0[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/3B7D1BF0-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/3C66F4A1[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/3C66F4A1-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/450FC230-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/46EF2404[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/46EF2404-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/4A5DEE03-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/4F36577D-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/4F486D59-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/5E5FBCE-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/68FB581-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/6CA19981-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/6F4EDC3D-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/77182A54-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/7A0CB063-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/7B18AA73-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/854422B8-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/8ABD0FCF-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/8E18EFC2[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/8E18EFC2-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/8EA233FD-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/90B06CBF-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/9A2BAB0B-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/9D753756-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/9EAAEDE3-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/AD530096-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/B096FF95[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/B096FF95-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/B4A67774-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/B50A3C38-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/BA8B138F-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/BDA2953E-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/C070F896-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/C230832D-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/CEE4B1C1-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/E045F5D3[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/E045F5D3-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/E81EEE45[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/E81EEE45-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/EF0EFE4B-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/FCE6ADDD-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/FDF7780B[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/FDF7780B-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/FE7938C6-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/FF5B130A-contents[0m[0K
-        [0;31mdeleted:    .Rproj.user/588ADFCB/sources/s-D2EE9226/lock_file[0m[0K
-        [0;31mdeleted:    .Rproj.user/shared/notebooks/33814106-2020-05-13-markdown-cheat-sheet/1/s/ch[0Ku
-nks.json[0m[0K
-        [0;31mdeleted:    .Rproj.user/shared/notebooks/3806949F-2020-05-14-deploy-blogdown-site-with-g[0Ki
-thub-netify/1/588ADFCBD2EE9226/chunks.json[0m[0K
-        [0;31mdeleted:    .Rproj.user/shared/notebooks/3806949F-2020-05-14-deploy-blogdown-site-with-g[0Ki
-thub-netify/1/s/chunks.json[0m[0K
-        [0;31mdeleted:    .Rproj.user/shared/notebooks/8F638B17-Exosome/1/s/chunks.json[0m[0K
-        [0;31mdeleted:    .Rproj.user/shared/notebooks/92A875E2-Exosome/1/s/chunks.json[0m[0K
-        [0;31mdeleted:    .Rproj.user/shared/notebooks/B04008D7-miREV/1/s/chunks.json[0m[0K
-        [0;31mmodified:   .Rproj.user/shared/notebooks/paths[0m[0K
-        [0;31mmodified:   .gitignore[0m[0K
-        [0;31mmodified:   config/_default/params.toml[0m[0K
+        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/4D527142[0m[0K
+        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/617891F9[0m[0K
+        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/D4655757[0m[0K
+        [0;31mmodified:   content/post/2020-06-04-web-of-things-knowledge-graphs-decentralised-ai-and-responsib[0Kl
+e-ai.Rmd[0m[0K
+        [0;31mmodified:   content/post/2020-06-04-web-of-things-knowledge-graphs-decentralised-ai-and-responsib[0Kl
+e-ai.html[0m[0K
 [0K
 Untracked files:[0K
   (use "git add <file>..." to include in what will be committed)[0K
-        [0;31mcontent/post/2020-05-28-exosomes-biogenesis-function-and-clinical-potential.Rmd[0m[0K
-        [0;31mcontent/post/2020-05-28-exosomes-biogenesis-function-and-clinical-potential.html[0m[0K
-        [0;31mcontent/post/2020-06-04-web-of-things-knowledge-graphs-decentralised-ai-and-responsible-[0Ka[9G[?25h]0; [?25l
-i.Rmd[0m[0K
-        [0;31mcontent/post/2020-06-04-web-of-things-knowledge-graphs-decentralised-ai-and-responsible-[0Ka
-i.html[0m[0K
-        [0;31mstatic/post/[0m[0K
+        [0;31mstatic/post/webofthings_/[0m[0K
 [0K
 no changes added to commit (use "git add" and/or "git commit -a")[0K
 [0K
-C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25hg[0Ki[0Kt[0K[77G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git a[0K[?25hd[0Kd[0K[81G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git add -[0K[?25h-[0Ka[0Kl[0Kl[0K[?25l
-[0K[?25h]0;  - git  add --all
+C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25hg[0Ki[0Kt[0K[77G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git a[0K[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git[0K[77G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git -[0K[?25ha[0Kd[0Kd[0K[?25l
+[0K[?25h]0;  - git  -addunknown option: -add[0K[?25l
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>][0K
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path][0K
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare][0K
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>][0K
+           <command> [<args>][0K
+[0K[?25h]0; [?25l
+C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25hg[0Ki[0Kt[0K[77G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[84G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -[0K[?25ha[0K[87G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "[0K[?25h"[0K[88G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "c"[0K[89G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "co"[0K[90G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "com"[0K[91G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "come"[0K[92G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "comeb"[0K[93G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "comeba"[0K[94G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "comebac"[0K[95G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "comeback"[0K[96G[?25h]0;  - git  commit -a "comeback"[?25l
+[0K[?25h]0; fatal: paths 'comeback ...' with -a does not make sense[0K[?25l
+[0K
+C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25h[?25l[11A[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+    C:\Users\carpenoctem\Documents\Git\PROJECTS\P[0KH
+D_potfolio_academic_theme>git -add[0K
+unknown option: -add[0K
+usage: git [--version] [--help] [-C <path>] [-c <[0Kn
+ame>=<value>][0K
+           [--exec-path[=<path>]] [--html-path] [[0K-
+-man-path] [--info-path][0K
+           [-p | --paginate | -P | --no-pager] [-[0K-
+no-replace-objects] [--bare][0K
+           [--git-dir=<path>] [--work-tree=<path>[0K]
+ [--namespace=<name>][0K
+           <command> [<args>][0K
+[0K
+C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_p[0Ko
+tfolio_academic_theme>git commit -a "comeback"[0K
+fatal: paths 'comeback ...' with -a does not make[0K
+sense[0K
+[0K
+C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_p[0Ko
+tfolio_academic_theme>[0K[?25h[?25l[11Aio_academic_theme>git commit -a "comeback"[0K
+fatal: paths 'comeback ...' with -a does not make sen[0Ks
+e[0K
+[0K
+C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfo[0Kl
+io_academic_theme>[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[6A[19G[?25h[?25l[5Aacademic_theme>[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[11A[16G[?25h[?25l[37A  academic_theme>[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[11A[18G[?25h
