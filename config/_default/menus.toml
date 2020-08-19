@@ -11,12 +11,12 @@
 [[main]]
   name = "Posts"
   url = "#posts"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Projects"
-  url = "#projects"
-  weight = 30
+  url = "project/"
+  weight = 20
 
 #[[main]]
 #  name = "Publications"
@@ -25,8 +25,18 @@
 
 [[main]]
   name = "Contact"
-  url = "#contact"
-  weight = 60
+  url = "contact/"
+  weight = 70
+
+[[main]]
+    name = "About"  # A name for the link.
+    url = "about/"  # URL of the section.
+    weight = 60  # Position of the link in the menu.
+
+[[main]]
+    name = "EV Research"  # A name for the link.
+    url = "research/"  # URL of the section.
+    weight = 15  # Position of the link in the menu.
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

@@ -1,16 +1,33 @@
 ---
 title: miREV
-author: Alex.Hildebrandt
-date: '2020-05-13'
-slug: miREV
-categories:
-  - project
+summary: Meta-analysis of EV isolates from human blood.
 tags:
-  - R shiny, app
-description: 'miREV project'
-topics: []
-commentable: true
-reading_time: true
+- PhD
+date: "2020-08-19T00:00:00Z"
+
+# Optional external URL for project (replaces project detail page).
+external_link: ""
+
+image:
+  caption: Photo of zeros and ones
+  focal_point: Smart
+
+#links:
+#- icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: example
 ---
 
 Click [**here**](http://141.40.217.80:3838/miREV/) to get to miREV app.

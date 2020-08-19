@@ -1,136 +1,0 @@
-[0m[0KMicrosoft Windows [Version 10.0.18363.959][0K[?25l
-(c) 2019 Microsoft Corporation. Alle Rechte vorbehalten.[0K
-[0K
-C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25hg[0Ki[0Kt[0K[77G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K]0;  - git  status[?25l
-[0K[?25h]0; On branch master[0K[?25l
-Your branch is up to date with 'origin/master'.[0K
-[0K
-Changes not staged for commit:[0K
-  (use "git add <file>..." to update what will be committed)[0K
-  (use "git restore <file>..." to discard changes in working directory)[0K
-        [0;31mmodified:   .RData[0m[0K
-        [0;31mmodified:   .Rhistory[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/console06/ADE01EB7[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/console06/INDEX001[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/pcs/files-pane.pper[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/pcs/source-pane.pper[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/pcs/windowlayoutstate.pper[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/pcs/workbench-pane.pper[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/rmd-outputs[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/166CA13F[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/4D527142[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/617891F9[0m[0K
-        [0;31mmodified:   .Rproj.user/588ADFCB/sources/prop/D4655757[0m[0K
-        [0;31mmodified:   content/post/2020-06-04-web-of-things-knowledge-graphs-decentralised-ai-and-responsib[0Kl
-e-ai.Rmd[0m[0K
-        [0;31mmodified:   content/post/2020-06-04-web-of-things-knowledge-graphs-decentralised-ai-and-responsib[0Kl
-e-ai.html[0m[0K
-[0K
-Untracked files:[0K
-  (use "git add <file>..." to include in what will be committed)[0K
-        [0;31mstatic/post/webofthings_/[0m[0K
-[0K
-no changes added to commit (use "git add" and/or "git commit -a")[0K
-[0K
-C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25hg[0Ki[0Kt[0K[77G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git a[0K[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git[0K[77G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git -[0K[?25ha[0Kd[0Kd[0K[?25l
-[0K[?25h]0;  - git  -addunknown option: -add[0K[?25l
-usage: git [--version] [--help] [-C <path>] [-c <name>=<value>][0K
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path][0K
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare][0K
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>][0K
-           <command> [<args>][0K
-[0K[?25h]0; [?25l
-C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25hg[0Ki[0Kt[0K[77G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[84G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -[0K[?25ha[0K[87G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "[0K[?25h"[0K[88G[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "c"[0K[89G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "co"[0K[90G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "com"[0K[91G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "come"[0K[92G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "comeb"[0K[93G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "comeba"[0K[94G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "comebac"[0K[95G[?25h[?25lC:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>git commit -a "comeback"[0K[96G[?25h]0;  - git  commit -a "comeback"[?25l
-[0K[?25h]0; fatal: paths 'comeback ...' with -a does not make sense[0K[?25l
-[0K
-C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfolio_academic_theme>[0K[?25h[?25l[11A[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-    C:\Users\carpenoctem\Documents\Git\PROJECTS\P[0KH
-D_potfolio_academic_theme>git -add[0K
-unknown option: -add[0K
-usage: git [--version] [--help] [-C <path>] [-c <[0Kn
-ame>=<value>][0K
-           [--exec-path[=<path>]] [--html-path] [[0K-
--man-path] [--info-path][0K
-           [-p | --paginate | -P | --no-pager] [-[0K-
-no-replace-objects] [--bare][0K
-           [--git-dir=<path>] [--work-tree=<path>[0K]
- [--namespace=<name>][0K
-           <command> [<args>][0K
-[0K
-C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_p[0Ko
-tfolio_academic_theme>git commit -a "comeback"[0K
-fatal: paths 'comeback ...' with -a does not make[0K
-sense[0K
-[0K
-C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_p[0Ko
-tfolio_academic_theme>[0K[?25h[?25l[11Aio_academic_theme>git commit -a "comeback"[0K
-fatal: paths 'comeback ...' with -a does not make sen[0Ks
-e[0K
-[0K
-C:\Users\carpenoctem\Documents\Git\PROJECTS\PHD_potfo[0Kl
-io_academic_theme>[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K[6A[19G[?25h[?25l[5Aacademic_theme>[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K[11A[16G[?25h[?25l[37A  academic_theme>[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K
-[0K[11A[18G[?25h

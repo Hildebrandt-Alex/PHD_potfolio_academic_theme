@@ -70,4 +70,4 @@ user_groups:
 - Visitors
 ---
 
-Alex Hildebrandt is a PhD candidate for computational science
+
