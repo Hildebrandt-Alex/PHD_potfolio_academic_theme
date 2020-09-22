@@ -49,3 +49,4 @@ view_update
 
 # Apply any updates
 do_update
+

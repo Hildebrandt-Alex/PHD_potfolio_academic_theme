@@ -1,10 +1,10 @@
 <footer class="site-footer">
-  {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
+  {{ if or (site.GetPage "disclaimer.md") (site.GetPage "privacy.md") }}
   <p class="powered-by">
     {{ with site.GetPage "privacy.md" }}
       {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
     {{ end }}
-    {{ with site.GetPage "terms.md" }}
+    {{ with site.GetPage "disclaimer.md" }}
       {{ if site.GetPage "privacy.md" }} &middot; {{ end }}
       {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
     {{ end }}
@@ -13,6 +13,9 @@
 
   <p class="powered-by">
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
+
+    This work by Alex Hildebrandt is licensed under a <a href="https://creativecommons.org/licenses     /by-sa/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0            International License.</a>
+    Permission beyond the scope of license may be available at <a href="https://alex-hildebrandt.netlify.app/contact/" target="_blank" rel="noopener">Contact adress.</a>
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
