@@ -10,7 +10,7 @@ subtitle = ""
 
 [content]
   # Page type to display. E.g. project.
-  page_type = "project_work"
+  page_type = "how_to_sites"
   
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
@@ -26,12 +26,20 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "PhD"
-    tag = "PhD"
+    name = "R"
+    tag = "R"
   
   [[content.filter_button]]
-    name = "Shiny App"
-    tag = "shiny"
+    name = "Python"
+    tag = "Python"
+    
+  [[content.filter_button]]
+    name = "Bash"
+    tag = "Bash"
+    
+  [[content.filter_button]]
+    name = "Backend-Dev"
+    tag = "Backend-Dev"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
