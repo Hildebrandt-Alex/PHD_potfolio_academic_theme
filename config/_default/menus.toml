@@ -37,6 +37,11 @@
     name = "EV Research"  # A name for the link.
     url = "research/"  # URL of the section.
     weight = 15  # Position of the link in the menu.
+    
+[[main]]
+    name = "How to"  # A name for the link.
+    url = "howto/"  # URL of the section.
+    weight = 35  # Position of the link in the menu.
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
