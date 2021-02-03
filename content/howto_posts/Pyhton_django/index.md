@@ -1,5 +1,5 @@
 ---
-title: Python
+title: Python Django
 summary: Django Backend-Webframework
 tags:
 - Python
