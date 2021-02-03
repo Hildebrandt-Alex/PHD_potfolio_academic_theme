@@ -22,15 +22,23 @@ subtitle = ""
   filter_default = 0
   
   [[content.filter_button]]
-  - name = "All"
+    name = "All"
     tag = "*"
-  - name = "R"
+  
+  [[content.filter_button]]
+    name = "R"
     tag = "R"
-  - name = "Python"
+  
+  [[content.filter_button]]
+    name = "Python"
     tag = "Python"
-  - name = "Bash"
+    
+  [[content.filter_button]]
+    name = "Bash"
     tag = "Bash"
-  - name = "Backend-Dev"
+    
+  [[content.filter_button]]
+    name = "Backend-Dev"
     tag = "Backend-Dev"
 
 [design]
