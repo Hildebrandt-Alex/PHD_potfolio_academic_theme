@@ -36,4 +36,4 @@ slides: example
    
 Python is a powerful and easy to 
 
-Here you are some notebook entries to [basics]({{< relref "/howto_posts/Python_basics/Python_Basics" >}}) 
+Here you are some notebook entries to [basics](/python_notebooks/Python_Basics.html) 
