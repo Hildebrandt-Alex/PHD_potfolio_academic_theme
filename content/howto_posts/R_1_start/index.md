@@ -34,4 +34,5 @@ slides: example
 
 **R how to start and where to look:**
    
-R is a programming language for statistical computing. Read the [wiki](https://en.wikipedia.org/wiki/R_(programming_language) entry for detailed information.
+R is a programming language for statistical computing. Read the [wiki](https://en.wikipedia.org/wiki/R_(programming_language)) entry for detailed information.
+
