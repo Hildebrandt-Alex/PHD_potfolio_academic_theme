@@ -36,4 +36,4 @@ slides: example
    
 Python is a powerful and easy to 
 
-Here you are some notebook entries to [basics](./Python_Basics.md) 
+Here you are some notebook entries to [basics](Python_Basics.md) 
