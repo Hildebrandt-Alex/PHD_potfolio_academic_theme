@@ -1,9 +1,8 @@
 ---
-title: Shiny package
-summary: Web applications with R
+title: R Shiny 
+summary: Building applications with a GUI 
 tags:
 - R
-- Shiny App
 date: "2020-08-19T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -33,6 +32,6 @@ slides: example
 
 
 
-**Shiny - Using R to create web applications**
+**R how to start and where to look:**
    
-Shiny is a package for R and it enables you to make easy to use web applications. This is benefecial for people in your working group to explore data in a more easy way than in RStudio.
+R is a programming language which is 
