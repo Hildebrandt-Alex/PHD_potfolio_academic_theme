@@ -1,6 +1,6 @@
 ---
-title: R how to start and where to look
-summary: Packages, Code snippets and more
+title: R Shiny
+summary: Building applications with a GUI
 tags:
 - R
 date: "2020-08-19T00:00:00Z"

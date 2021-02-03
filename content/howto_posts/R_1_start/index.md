@@ -1,6 +1,6 @@
 ---
-title: R Shiny 
-summary: Building applications with a GUI 
+title: R How to start and where to look
+summary: Begin and explore R  
 tags:
 - R
 date: "2020-08-19T00:00:00Z"
@@ -34,4 +34,4 @@ slides: example
 
 **R how to start and where to look:**
    
-R is a programming language which is 
+R is a programming language for statistical computing. Read the [wiki](https://en.wikipedia.org/wiki/R_(programming_language) entry for detailed information.
