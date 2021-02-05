@@ -26,7 +26,7 @@ projects: []
 
 ## .html templates in Django & how to inherit layout
 
-In Django it is a good practice to inherit layout. Therefor you first need to make a template directory in your app. There you can save a base.html. This site has the base layout of all sites which are extended wwith it. This is how a base.html file can look like:
+In Django it is a good practice to inherit layout. Therefor you first need to make a template directory in your app. There you can save a base.html. This site has the base layout of all sites which are extended with it. This is how a base.html file can look like:
 
       {% load static %}
       <!DOCTYPE html>
