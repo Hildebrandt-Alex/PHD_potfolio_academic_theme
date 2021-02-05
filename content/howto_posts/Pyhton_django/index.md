@@ -39,5 +39,7 @@ Django is a high-level python web framework that is built with speed, security a
 
 
   1. Learn how to create an admin for the backend in this [__post__]({{< relref "/post/2020-05-20-django-admin-backend" >}})
-  1. Learn something about databases in Django. [__post__]{{< relref "/post/2020-05-20-django-database" >}})
-  1. Here you can find information about templates in Django. [__post__]{{< relref "/post/2020-05-20-django" >}})
+
+Learn something about [__databases__]({{< relref "/post/2020-05-20-django-database" >}}) in Django
+
+Here you can find information about [__templates__]({{< relref "/post/2020-05-20-django" >}}) in Django
