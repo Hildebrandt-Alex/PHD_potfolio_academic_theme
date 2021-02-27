@@ -32,6 +32,10 @@ slides: example
 
 
 
-**R how to start and where to look:**
+### R Markdown:
    
-R is a programming language which is 
+R Markdown can be used to produce good looking documents, reports, presentations and dashboards. Thereby you can use muliple languages like R, Python adn SQL. [__Here__](https://rmarkdown.rstudio.com/) is the official site.
+
+### Cheat Sheet
+
+[__Click here__](https://raw.githubusercontent.com/rstudio/cheatsheets/master/rmarkdown-2.0.pdf) to be forwarded to the R Markdown cheat sheet

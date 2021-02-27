@@ -32,11 +32,13 @@ slides: example
 
 
 
-**Shiny R-package:**
+### Shiny R-package:
    
-Shiny is a R package you can built with interactive apps. You can use them local or make them available online with the shiny-server.
+Shiny is a R package you can built with interactive apps. You can use them local or make them available online with the rshiny-server. [__Click here__](https://shiny.rstudio.com/) to be forwarded to the official site. There you will find examples of shiny applications. Articles, Tutorials and references will help you to get started.
 
 ### How to set up a shiny server:
 
 [__Here__](https://www.linode.com/docs/guides/how-to-deploy-rshiny-server-on-ubuntu-and-debian/) you will find the information is needed to install a rshiny-server on a ubuntu and debian system and how to make your shiny application available online. You can run them from you local ubuntu system or from a remote ubuntu system. 
+
+### Helpful links:
 
