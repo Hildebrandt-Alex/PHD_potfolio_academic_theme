@@ -32,6 +32,14 @@ slides: example
 
 
 
-**R how to start and where to look:**
+### R blogdown package:
    
-R is a programming language which is 
+With R blodown you can create websites using R Markdown documetns and static HUGO templates.
+[__This__](https://bookdown.org/yihui/blogdown/) book is a good starting point to get a feeling for the folder structure of a R blogdown project and the configuration of the important files. One chapter is about deployment with *Netlify* and *GitHub*. So there is all information you need to generate a online available website.
+
+This site is also build with the R blogdown package. I used the Academic Theme. [__Here__](https://wowchemy.com/docs/) you will find the Documentation.
+
+### Academic theme 
+
+The Academic theme includes a website builder which is called *Wowchemy* and is open source. This website builder has several preconfigured widgets that you can use to decorate and personalize your site.
+

@@ -35,7 +35,7 @@
 
 [[main]]
     name = "EV Research"  # A name for the link.
-    url = "research/"  # URL of the section.
+    url = "EVresearch/"  # URL of the section.
     weight = 15  # Position of the link in the menu.
     
 [[main]]
