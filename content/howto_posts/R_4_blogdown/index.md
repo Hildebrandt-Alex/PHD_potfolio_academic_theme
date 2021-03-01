@@ -43,3 +43,4 @@ This site is also build with the R blogdown package. I used the Academic Theme. 
 
 The Academic theme includes a website builder which is called *Wowchemy* and is open source. This website builder has several preconfigured widgets that you can use to decorate and personalize your site.
 
+  - You can create bl
