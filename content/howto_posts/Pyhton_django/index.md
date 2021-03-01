@@ -33,13 +33,15 @@ slides: example
 
 
 
-**Python Django**
+**Introduction**
    
 Django is a high-level python web framework that is built with speed, security and scalability at its core.
 
 
+**How To posts**
+
   1. Learn how to create an admin for the backend in this [__post__]({{< relref "/post/2020-05-20-django-admin-backend" >}})
 
-Learn something about [__databases__]({{< relref "/post/2020-05-20-django-database" >}}) in Django
+  2. Learn something about [__databases__]({{< relref "/post/2020-05-20-django-database" >}}) in Django
 
-Here you can find information about [__templates__]({{< relref "/post/2020-05-20-django" >}}) in Django
+  3. Here you can find information about [__templates__]({{< relref "/post/2020-05-20-django" >}}) in Django
